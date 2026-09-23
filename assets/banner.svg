@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Cyber Alchemist — Turning raw APIs, bots and quiet automation into gold">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A0E14" />
+      <stop offset="0.5" stop-color="#0C1220" />
+      <stop offset="1" stop-color="#0A0E14" />
+    </linearGradient>
+    <radialGradient id="glowGold" cx="0.15" cy="0.1" r="0.65" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#FBBF24" stop-opacity="0.18" />
+      <stop offset="1" stop-color="#FBBF24" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="0.9" cy="0.95" r="0.7" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.14" />
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="goldTitle" x1="0" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FDE68A" />
+      <stop offset="0.5" stop-color="#FBBF24" />
+      <stop offset="1" stop-color="#F59E0B" />
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="430" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FBBF24" />
+      <stop offset="1" stop-color="#22D3EE" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)" />
+  <rect width="1200" height="300" fill="url(#glowGold)" />
+  <rect width="1200" height="300" fill="url(#glowCyan)" />
+
+  <!-- hairline grid -->
+  <g stroke="#16203a" stroke-width="1" opacity="0.6">
+    <line x1="0" y1="75" x2="1200" y2="75" />
+    <line x1="0" y1="150" x2="1200" y2="150" />
+    <line x1="0" y1="225" x2="1200" y2="225" />
+    <line x1="300" y1="0" x2="300" y2="300" />
+    <line x1="600" y1="0" x2="600" y2="300" />
+    <line x1="900" y1="0" x2="900" y2="300" />
+  </g>
+
+  <!-- alchemical glyph strip -->
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#22D3EE" opacity="0.4">
+    <text x="40" y="262">🜁</text>
+    <text x="76" y="262">🜂</text>
+    <text x="112" y="262">🜃</text>
+    <text x="148" y="262">🜄</text>
+    <text x="184" y="262">☿</text>
+    <text x="220" y="262">🜍</text>
+  </g>
+
+  <!-- overline -->
+  <text x="70" y="92" font-family="Consolas, 'Courier New', monospace" font-size="17" fill="#22D3EE" letter-spacing="6">ARMAN SAEEDI — GENERATIVE AI ENGINEER</text>
+
+  <!-- title -->
+  <text x="68" y="176" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="bold" fill="url(#goldTitle)" letter-spacing="2">CYBER ALCHEMIST</text>
+
+  <!-- divider -->
+  <line x1="72" y1="206" x2="500" y2="206" stroke="url(#line)" stroke-width="3" />
+  <polygon points="286,199 294,206 286,213 278,206" fill="#FBBF24" />
+
+  <!-- tagline -->
+  <text x="70" y="244" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#9CA3AF">&#9879; turning raw APIs, bots &amp; quiet automation into gold</text>
+
+  <!-- chips -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="14">
+    <rect x="850" y="64" width="290" height="30" rx="15" fill="#22D3EE" fill-opacity="0.07" stroke="#22D3EE" stroke-opacity="0.55" />
+    <text x="995" y="84" text-anchor="middle" fill="#7DD3FC">MCP SERVERS</text>
+
+    <rect x="850" y="104" width="290" height="30" rx="15" fill="#FBBF24" fill-opacity="0.07" stroke="#FBBF24" stroke-opacity="0.55" />
+    <text x="995" y="124" text-anchor="middle" fill="#FCD34D">TELEGRAM BOTS</text>
+
+    <rect x="850" y="144" width="290" height="30" rx="15" fill="#22D3EE" fill-opacity="0.07" stroke="#22D3EE" stroke-opacity="0.55" />
+    <text x="995" y="164" text-anchor="middle" fill="#7DD3FC">CLOUDFLARE WORKERS</text>
+
+    <rect x="850" y="184" width="290" height="30" rx="15" fill="#FBBF24" fill-opacity="0.07" stroke="#FBBF24" stroke-opacity="0.55" />
+    <text x="995" y="204" text-anchor="middle" fill="#FCD34D">VIDEO PIPELINES</text>
+
+    <rect x="850" y="224" width="290" height="30" rx="15" fill="#22D3EE" fill-opacity="0.07" stroke="#22D3EE" stroke-opacity="0.55" />
+    <text x="995" y="244" text-anchor="middle" fill="#7DD3FC">MARKET DATA</text>
+  </g>
+</svg>
