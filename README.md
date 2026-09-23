@@ -38,24 +38,15 @@
 
 ---
 
-### 📊 Stats
+### 📟 Ledger
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=a-saeedia&show_icons=true&count_private=true&theme=github_dark&hide_border=true&title_color=FBBF24&icon_color=22D3EE)](https://github.com/a-saeedia)
-
-[![GitHub Streak](https://github-readme-streak-stats.demolab.com/?user=a-saeedia&theme=github-dark&hide_border=true&ring=FBBF24&fire=FBBF24&currStreakLabel=22D3EE)](https://github.com/a-saeedia)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=a-saeedia&layout=compact&langs_count=8&theme=github_dark&hide_border=true&title_color=FBBF24)](https://github.com/a-saeedia)
-
-#### Activity
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=a-saeedia&theme=github-dark&hide_border=true&color=22D3EE&line=FBBF24&point=FBBF24&area=true&area_color=22D3EE)](https://github.com/a-saeedia)
+<p align="center">
+  <a href="https://github.com/a-saeedia?tab=followers"><img src="https://img.shields.io/github/followers/a-saeedia?style=for-the-badge&logo=github&label=Followers&color=22D3EE" alt="Followers"></a>
+  <a href="https://github.com/a-saeedia/a-saeedia"><img src="https://img.shields.io/github/last-commit/a-saeedia/a-saeedia?style=for-the-badge&logo=git&label=Last%20Commit&color=FBBF24" alt="Last Commit"></a>
+  <img src="https://komarev.com/ghpvc/?username=a-saeedia&style=for-the-badge&color=22D3EE" alt="Profile views" />
+</p>
 
 ![Contribution Snake](https://raw.githubusercontent.com/a-saeedia/a-saeedia/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 ![Contribution Snake](https://raw.githubusercontent.com/a-saeedia/a-saeedia/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
-#### Trophies
-
-[![Trophy](https://github-profile-trophy.vercel.app/?username=a-saeedia&theme=onedark&no-frame=true&row=2&column=4)](https://github.com/a-saeedia)
-
-<img src="https://visitcount.itsvg.in/api?id=a-saeedia&icon=5&color=12" alt="visitors" />
 </div>
