@@ -39,7 +39,10 @@
 <img src="https://img.shields.io/github/last-commit/a-saeedia/a-saeedia?style=flat&color=FBBF24" alt="Last commit" />
 <img src="https://komarev.com/ghpvc/?username=a-saeedia&color=22D3EE&style=flat" alt="Profile views" />
 
-<img src="https://raw.githubusercontent.com/a-saeedia/a-saeedia/main/assets/github-contribution-grid-snake-dark.svg" alt="contribution snake" width="100%" />#gh-dark-mode-only
-<img src="https://raw.githubusercontent.com/a-saeedia/a-saeedia/main/assets/github-contribution-grid-snake.svg" alt="contribution snake" width="100%" />#gh-light-mode-only
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/a-saeedia/a-saeedia/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/a-saeedia/a-saeedia/output/github-contribution-grid-snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/a-saeedia/a-saeedia/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
 
 </div>
