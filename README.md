@@ -4,8 +4,6 @@
 
 <img src="https://readme-typing-svg.vercel.app/?lines=GENERATIVE+AI+ENGINEER;BOTS+%2B+FUNNELS+%2B+QUIET+AUTOMATION;MCP+SERVERS+%2B+CLOUDFLARE+WORKERS;TELEGRAM+BOTS+%2B+VIDEO+PIPELINES+%2B+MARKET+DATA&center=true&vCenter=true&width=600&height=40&color=22D3EE&size=20" alt="Typing SVG" />
 
-<img src="assets/emblem.svg" width="300" alt="Transmutation seal - SMIL animated" />
-
 **[Portfolio](https://a-saeedia.github.io) · [Blog](https://generative-waves.ca) · [A Corp](https://generative-waves.sa) · [Telegram](https://t.me/cyberalchemistt)**
 
 <sub>ساختِ ربات‌ها و ابزارهای خودکار — با Python، TypeScript و Cloudflare</sub>
@@ -49,6 +47,6 @@
   <img alt="contribution snake" src="https://raw.githubusercontent.com/a-saeedia/a-saeedia/output/github-contribution-grid-snake.svg" width="100%" />
 </picture>
 
-<img src="assets/signature.svg" alt="Arman Saeedi autograph" width="200" />
+<img src="assets/emblem.svg" width="300" alt="Transmutation seal - SMIL animated" />
 
 </div>
