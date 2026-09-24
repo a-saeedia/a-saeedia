@@ -1,14 +1,28 @@
 <div align="center">
 
+<style>
+.sigils a, .sys img { transition: transform .18s ease, filter .18s ease; }
+.sigils a:hover, .sys img:hover { transform: translateY(-2px); filter: drop-shadow(0 0 6px rgba(251, 191, 36, .55)); }
+.ledger img:not([alt^="contribution"]) { animation: breathe 3.2s ease-in-out infinite; }
+@keyframes breathe { 0%, 100% { filter: drop-shadow(0 0 0 rgba(34, 211, 238, 0)); } 50% { filter: drop-shadow(0 0 5px rgba(34, 211, 238, .6)); } }
+h3 { background: linear-gradient(90deg, #22d3ee, #fbbf24, #22d3ee); background-size: 200% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; animation: shift 5s linear infinite; }
+@keyframes shift { to { background-position: -200% 0; } }
+@media (prefers-reduced-motion: reduce) { .ledger img, h3 { animation: none; } .sigils a, .sys img { transition: none; } }
+</style>
+
 <img src="assets/banner.svg" width="100%" alt="CYBER ALCHEMIST — ARMAN SAEEDI · GENERATIVE AI ENGINEER" />
 
 <a href="https://readme-typing-svg.herokuapp.com/demo/"><img src="https://readme-typing-svg.herokuapp.com/?lines=GENERATIVE+AI+ENGINEER;BOTS+%2B+FUNNELS+%2B+QUIET+AUTOMATION;MCP+SERVERS+%2B+CLOUDFLARE+WORKERS;TELEGRAM+BOTS+%2B+VIDEO+PIPELINES+%2B+MARKET+DATA&center=true&vCenter=true&width=600&height=40&color=22D3EE&size=20" alt="Typing SVG" /></a>
+
+<img src="assets/emblem.svg" width="300" alt="Transmutation seal - SMIL animated" />
 
 **[Portfolio](https://a-saeedia.github.io) · [Blog](https://generative-waves.ca) · [A Corp](https://generative-waves.sa) · [Telegram](https://t.me/cyberalchemistt)**
 
 <sub>ساختِ ربات‌ها و ابزارهای خودکار — با Python، TypeScript و Cloudflare</sub>
 
 <img src="assets/rule.svg" width="100%" alt="rule" />
+
+<div class="sigils">
 
 ### Sigils
 
@@ -20,6 +34,10 @@
 | [multi-agent-workspace](https://github.com/a-saeedia/multi-agent-workspace) | JavaScript | ![Stars](https://img.shields.io/github/stars/a-saeedia/multi-agent-workspace?style=flat&color=FBBF24) | <sub>Cloudflare Workers workspace: Telegram funnel bot, AI video-editing pipeline (FFmpeg + vision), KV-backed multi-agent orchestration — all on workers.dev.</sub> |
 | [vedits](https://github.com/a-saeedia/vedits) | Python | ![Stars](https://img.shields.io/github/stars/a-saeedia/vedits?style=flat&color=FBBF24) | <sub>Zero-budget, FFmpeg-powered social video editor. Pure Python stdlib — presets for TikTok/Reels/Shorts, captions, concat, CapCut-style web GUI.</sub> |
 | [v0-ai-academy-prompt-library](https://github.com/a-saeedia/v0-ai-academy-prompt-library) | TypeScript | ![Stars](https://img.shields.io/github/stars/a-saeedia/v0-ai-academy-prompt-library?style=flat&color=FBBF24) | <sub>AI Academy prompt library — Next.js app generated from v0.app, deployed on Vercel.</sub> |
+
+</div>
+
+<div class="sys">
 
 ### Systems
 
@@ -33,11 +51,19 @@
 <img src="https://img.shields.io/badge/Next.js-0F172A?style=flat&logo=nextdotjs&logoColor=22D3EE" alt="Next.js" />
 <img src="https://img.shields.io/badge/OpenCV-0F172A?style=flat&logo=opencv&logoColor=22D3EE" alt="OpenCV" />
 
+</div>
+
+<div class="ledger">
+
 ### Ledger
 
 <img src="https://img.shields.io/github/followers/a-saeedia?style=flat&color=22D3EE" alt="Followers" />
 <img src="https://img.shields.io/github/last-commit/a-saeedia/a-saeedia?style=flat&color=FBBF24" alt="Last commit" />
 <img src="https://komarev.com/ghpvc/?username=a-saeedia&color=22D3EE&style=flat" alt="Profile views" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=a-saeedia&bg_color=0F172A&color=22D3EE&line=22D3EE&point=FBBF24&area_color=164E63&radius=8&height=340&hide_border=true" alt="Activity graph" width="100%" />
+
+</div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/a-saeedia/a-saeedia/output/github-contribution-grid-snake-dark.svg" />
