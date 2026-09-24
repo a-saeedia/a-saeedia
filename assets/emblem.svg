@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="0 0 420 420" role="img" aria-label="CYBER ALCHEMIST transmutation seal">
+  <defs>
+    <radialGradient id="bgRad" cx="0.5" cy="0.5" r="0.8">
+      <stop offset="0" stop-color="#141C29"/>
+      <stop offset="1" stop-color="#0A0E14"/>
+    </radialGradient>
+    <radialGradient id="coreGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FBBF24"/>
+      <stop offset="0.5" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#FBBF24"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <path id="ringOut" d="M 210,80 A 130,130 0 1,1 209.9,80"/>
+    <path id="ringIn" d="M 210,131 A 79,79 0 1,1 209.9,131"/>
+  </defs>
+
+  <rect x="0" y="0" width="420" height="420" rx="28" fill="url(#bgRad)" stroke="#FBBF24" stroke-opacity="0.18" stroke-width="1"/>
+  <circle cx="210" cy="210" r="120" fill="url(#coreGlow)"/>
+
+  <!-- fixed: quadrant studs on the outer ring + corner dots -->
+  <circle cx="210" cy="60" r="6" fill="#FBBF24" opacity="0.9"/>
+  <circle cx="210" cy="360" r="6" fill="#FBBF24" opacity="0.9"/>
+  <circle cx="60" cy="210" r="6" fill="#FBBF24" opacity="0.9"/>
+  <circle cx="360" cy="210" r="6" fill="#FBBF24" opacity="0.9"/>
+  <circle cx="343" cy="77" r="3" fill="#22D3EE" opacity="0.5"/>
+  <circle cx="77" cy="77" r="3" fill="#22D3EE" opacity="0.5"/>
+  <circle cx="343" cy="343" r="3" fill="#22D3EE" opacity="0.5"/>
+  <circle cx="77" cy="343" r="3" fill="#22D3EE" opacity="0.5"/>
+
+  <!-- outer gold ring, clockwise -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 210 210" to="360 210 210" dur="24s" repeatCount="indefinite"/>
+    <circle cx="210" cy="210" r="150" fill="none" stroke="url(#goldGrad)" stroke-width="4" opacity="0.95"/>
+  </g>
+
+  <!-- engraved name ring (static, seal text) -->
+  <text font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="6.5" fill="#FBBF24" opacity="0.92">
+    <textPath href="#ringOut">TRANSMUTATION SEQUENCE ACTIVE · CYBER ALCHEMIST ·</textPath>
+  </text>
+
+  <!-- cyan dashed ring, counter-clockwise -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="360 210 210" to="0 210 210" dur="18s" repeatCount="indefinite"/>
+    <circle cx="210" cy="210" r="116" fill="none" stroke="#22D3EE" stroke-width="2" stroke-dasharray="14 10" opacity="0.75"/>
+  </g>
+
+  <!-- thin gold tick ring, clockwise -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 210 210" to="360 210 210" dur="12s" repeatCount="indefinite"/>
+    <circle cx="210" cy="210" r="104" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-dasharray="1 6" opacity="0.6"/>
+  </g>
+
+  <!-- engraved element ring (static) -->
+  <text font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="5" fill="#22D3EE" opacity="0.85">
+    <textPath href="#ringIn">ELEMENTA · TERRA · AQUA · AER · IGNIS ·</textPath>
+  </text>
+
+  <!-- hexagram wheel, slow counter-clockwise -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="360 210 210" to="0 210 210" dur="30s" repeatCount="indefinite"/>
+    <circle cx="210" cy="210" r="40" fill="none" stroke="#22D3EE" stroke-width="1.5" stroke-dasharray="3 5" opacity="0.6"/>
+    <polygon points="210,180 184,195 236,195" fill="none" stroke="#FBBF24" stroke-width="2" opacity="0.9"/>
+    <polygon points="236,225 184,225 210,240" fill="none" stroke="#FBBF24" stroke-width="2" opacity="0.9"/>
+  </g>
+
+  <!-- orbiting sparks -->
+  <circle r="3.5" fill="#FBBF24" opacity="0.95">
+    <animateMotion dur="24s" repeatCount="indefinite" path="M 210,60 A 150,150 0 1,1 209.9,60"/>
+  </circle>
+  <circle r="3" fill="#22D3EE" opacity="0.9">
+    <animateMotion dur="16s" repeatCount="indefinite" path="M 210,144 A 66,66 0 1,0 209.9,144" rotate="0"/>
+  </circle>
+  <circle r="2.5" fill="#FBBF24" opacity="0.9">
+    <animateMotion dur="12s" repeatCount="indefinite" path="M 210,170 A 40,40 0 1,1 209.9,170"/>
+  </circle>
+
+  <!-- pulsing core -->
+  <circle cx="210" cy="210" r="6" fill="#22D3EE" opacity="0.8">
+    <animate attributeName="r" values="5;8;5" dur="3.2s" begin="0.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0.4;0.8" dur="3.2s" begin="0.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="210" cy="210" r="10" fill="#FBBF24" filter="url(#glow)" opacity="0.95">
+    <animate attributeName="r" values="9;12;9" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;1;0.9" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <polygon points="210,201 219,210 210,219 201,210" fill="#22D3EE">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite"/>
+  </polygon>
+</svg>
