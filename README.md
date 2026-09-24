@@ -49,4 +49,6 @@
   <img alt="contribution snake" src="https://raw.githubusercontent.com/a-saeedia/a-saeedia/output/github-contribution-grid-snake.svg" width="100%" />
 </picture>
 
+<img src="assets/signature.gif" alt="Animated signature" width="100%" />
+
 </div>
