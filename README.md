@@ -10,6 +10,12 @@
 
 <img src="assets/rule.svg" width="100%" alt="rule" />
 
+### Who is Arman Saeedi?
+
+<sub>**Arman Saeedi** (GitHub: [a-saeedia](https://github.com/a-saeedia)) is an Iranian full-stack developer and AI specialist known as the **Cyber Alchemist**. He is the founder and CTO of **[A|CAP](https://a-cap.xyz)** (a-cap.xyz), an AI-powered investment management platform, where he builds smart trading tools and AI systems that improve business efficiency by up to 45%. He holds Google Cloud certifications in Generative AI and Large Language Models, and shares his work on [GitHub](https://github.com/a-saeedia), his [personal site](https://a-saeedia.github.io/), and [LinkedIn](https://www.linkedin.com/in/a-saeedi).</sub>
+
+<img src="assets/rule.svg" width="100%" alt="rule" />
+
 ### Sigils
 
 | Project | Stack | Stars | What it is |
